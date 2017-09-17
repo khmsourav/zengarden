@@ -1,0 +1,454 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+
+/*========= basic elements ==========*/
+
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+	
+body { 
+	margin: 0; 
+	padding: 0;
+	}
+	
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+		
+a,a:hover { 
+	font-weight: bold; 
+	text-decoration: none;	
+	}
+
+abbr {
+    text-decoration: none;
+}	
+
+ul {
+    list-style: none;
+    padding-left: 0;
+	}
+	
+
+	
+/*========== intro section =========*/	
+	
+	
+header {
+    text-align: center;
+    background: seagreen;
+    padding-top: 10px;
+    margin-top: -22px;
+}	
+	
+.intro h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;
+	padding: 10px;
+}
+
+.intro h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-top: -30px;
+	padding-bottom: 5px;
+    font-style: oblique;
+    font-family: fantasy;
+	border-bottom: 2px solid #584e4e;
+}
+
+
+div#zen-summary {
+    width: 100%;
+    line-height: 15px;
+    font-style: oblique;
+    background: seagreen;
+    margin-top: -30px;
+    padding: 10px 0 20px;
+}	
+	
+div#zen-summary p {
+    width: 432px;
+	color: khaki;
+    text-align: center;
+    margin: 0 auto;
+}	
+	
+div#zen-summary p:last-child {
+    color: gainsboro;
+	margin-top: 5px;
+}
+
+div#zen-summary a{ 
+	font-weight: bold; 
+	text-decoration: none;
+    color: antiquewhite;
+}
+	
+	
+div#zen-preamble {
+	padding: 40px 0 60px 230px;
+    background: #f1f1f1;
+    position: relative;
+    overflow: hidden;
+}
+
+div#zen-preamble:after {
+    position: absolute;
+    content: "";
+    top: 25%;
+    right: 8%;
+    width: 450px;
+    height: 435px;
+    background: url(images/img3.png);
+    background-repeat: no-repeat;
+}
+
+div#zen-preamble h3 {
+    font-size: 36px;
+	line-height:48px;
+    text-align: justify;
+    color: mediumseagreen;
+    font-family: sans-serif;
+    font-style: oblique;
+    width: 212px;
+    font-weight: 700;
+	margin-bottom: 45px;
+	position:relative;
+}	
+
+div#zen-preamble h3:after {
+    position: absolute;
+    content: "";
+    bottom: -9%;
+    left: 0%;
+    width: 100px;
+    height: 5px;
+    background: sandybrown;
+	border-radius: 2px;
+	transition:.35s;
+}
+
+div#zen-preamble h3:hover:after {
+    width: 200px;
+}
+	
+div#zen-preamble p {
+    text-align: justify;
+	font-style: oblique;
+    font-size: 22px;
+    padding-right: 637px;
+    line-height: 35px;
+    color: salmon;
+}	
+
+
+
+/*========== main-supporting section =========*/
+
+
+div#zen-explanation {
+    padding: 40px 230px;
+}
+
+div#zen-explanation	h3 {
+    text-align: justify;
+    font-size: 42px;
+	width:354px;
+    color: mediumseagreen;
+    font-family: sans-serif;
+    font-weight: 700;
+	text-transform: uppercase;
+}
+	
+div#zen-explanation	p {
+    text-align: justify;
+    font-size: 22px;
+    line-height: 35px;
+    color: salmon;
+}
+
+	
+div#zen-participation {
+    text-align: center;
+    padding: 40px 230px 60px;
+	background: #f1f1f1;
+	overflow: hidden;
+}	
+	
+div#zen-participation h3 {
+    text-align: justify;
+    font-size: 42px;
+    color: slateblue;
+    font-family: sans-serif;
+    font-weight: 700;
+	text-transform: uppercase;
+}	
+	
+div#zen-participation p {
+    text-align: justify;
+    font-size: 22px;
+    line-height: 35px;
+    color: royalblue;
+    margin-bottom: 37px;
+}
+
+
+div#zen-benefits {
+	position:relative;
+    overflow: hidden;
+    padding: 40px 0 50px 230px;
+}
+
+div#zen-benefits:after {
+    position: absolute;
+    content: "";
+    top: 25%;
+    right: 8%;
+    width: 451px;
+    height: 287px;
+    background-image: url(images/img2.png);
+    background-repeat: no-repeat;
+}
+
+div#zen-benefits h3 {
+    text-align: justify;
+    font-size: 42px;
+    color: mediumseagreen;
+    font-family: sans-serif;
+    font-weight: 700;
+	text-transform: uppercase;
+}
+
+div#zen-benefits p {
+    text-align: justify;
+    font-size: 22px;
+    line-height: 40px;
+    color: goldenrod;
+	padding-right: 637px;
+    margin-bottom: 37px;
+}
+
+
+.requirements {
+    padding: 40px 230px 90px 230px;
+    overflow: hidden;
+    background: #f1f1f1;
+}
+
+.requirements h3 {
+    text-align: justify;
+    font-size: 42px;
+    color: slateblue;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}	
+	
+.requirements p {
+    text-align: justify;
+    font-size: 22px;
+    line-height: 40px;
+    color: royalblue;
+    margin-bottom: 100px;
+}
+
+.requirements p:nth-child(2) {
+	padding-right:407px;
+	position: relative;
+}
+
+.requirements p:nth-child(2):after {
+	position: absolute;
+    content: "";
+    top: -10%;
+    right: 5%;
+    width: 284px;
+    height: 292px;
+    background: url(images/img1.png);
+	background-repeat: no-repeat;
+}
+
+.requirements p:nth-child(4) {
+	padding-left:407px;
+	position:relative;
+}
+
+.requirements p:nth-child(4):after {
+    position: absolute;
+    content: "";
+    top: -16%;
+    left: 5%;
+    width: 289px;
+    height: 287px;
+    background: url(images/img2.png);
+	background-repeat: no-repeat;
+}
+
+.requirements p:nth-child(5) {
+	padding-right:407px;
+	position:relative;
+}
+
+.requirements p:nth-child(5):after {
+	position: absolute;
+    content: "";
+    top: -20%;
+    right: 5%;
+    width: 284px;
+    height: 292px;
+    background: url(images/img1.png);
+	background-repeat: no-repeat;
+}
+
+.requirements p:last-child {
+    text-align: center;
+    padding: 50px 200px;
+    max-width: 810px;
+    background: purple;
+    margin: 0 auto;
+}
+
+.requirements p:last-child a {
+    color: dodgerblue;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background: purple;
+}
+
+footer a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 20px;
+    transition: .45s;
+    background: navy;
+    border-radius: 3px;
+    margin: 7px;
+}
+
+footer a:hover {
+    color: navy;
+    background: #fff;
+}
+
+
+
+/*========== sidebar section =========*/
+
+
+aside.sidebar {
+    padding: 40px 230px;
+    background: #f1f1f1;
+    display: flow-root;
+}
+
+div#design-selection {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+div#design-selection h3 {
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 27px;
+    color: slateblue;
+    font-family: fantasy;
+    font-weight: 700;
+	margin-bottom: 40px;
+}
+
+nav ul li{
+	color: dodgerblue;
+	margin-bottom: -10px;
+}
+
+a.design-name {
+    display: block;
+    font-size: 20px;
+    color: royalblue;
+    margin-bottom: 4px;
+}
+
+a.designer-name {
+    color: dodgerblue;
+	font-style: oblique;
+}
+
+
+.design-selection nav ul li:nth-child(even) {
+    padding-left: 235px;
+    transform: translateY(-35px);
+}
+
+.zen-resources {
+    width: 50%;
+    float: right;
+	transform:translateX(100px);
+	position:relative;
+}
+
+.zen-resources:before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 220px;
+    top: 30%;
+    left: -10%;
+    background: rebeccapurple;
+}
+
+.zen-resources h3 {
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 27px;
+    color: slateblue;
+    font-family: fantasy;
+    font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.zen-resources ul li a {
+    font-size: 20px;
+    color: royalblue;
+    margin-bottom: 30px;
+    display: block;
+	transition:.45s;
+}
+
+.zen-resources ul li a:hover {
+    padding-left: 10px;
+}
+
+
+
+
+div#design-archives {
+    position: absolute;
+    display: none;
+}
+
+
+
+
+
+
