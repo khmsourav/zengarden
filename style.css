@@ -110,7 +110,8 @@ div#zen-preamble {
 div#zen-preamble:after {
     position: absolute;
     content: "";
-    top: 25%;
+    top: 50%;
+	transform: translateY(-50%);
     right: 8%;
     width: 450px;
     height: 435px;
@@ -217,7 +218,8 @@ div#zen-benefits {
 div#zen-benefits:after {
     position: absolute;
     content: "";
-    top: 25%;
+    top: 50%;
+	transform: translateY(-50%);
     right: 8%;
     width: 451px;
     height: 287px;
@@ -276,7 +278,7 @@ div#zen-benefits p {
     position: absolute;
     content: "";
     top: 50%;
-    transfrom: translateY(-50%);
+    transform: translateY(-50%);
     right: 5%;
     width: 284px;
     height: 292px;
@@ -293,7 +295,7 @@ div#zen-benefits p {
     position: absolute;
     content: "";
     top: 50%;
-    transfrom: translateY(-50%);
+    transform: translateY(-50%);
     left: 5%;
     width: 289px;
     height: 287px;
@@ -310,7 +312,7 @@ div#zen-benefits p {
 	position: absolute;
     content: "";
     top: 50%;
-	transfrom: translateY(-50%);
+	transform: translateY(-50%);
     right: 5%;
     width: 284px;
     height: 292px;
