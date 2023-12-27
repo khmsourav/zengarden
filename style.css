@@ -264,7 +264,7 @@ div#zen-benefits p {
     font-size: 22px;
     line-height: 40px;
     color: royalblue;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .requirements p:nth-child(2) {
@@ -273,14 +273,15 @@ div#zen-benefits p {
 }
 
 .requirements p:nth-child(2):after {
-	position: absolute;
+    position: absolute;
     content: "";
-    top: -10%;
+    top: 50%;
+    transfrom: translateY(-50%);
     right: 5%;
     width: 284px;
     height: 292px;
     background: url(images/img1.png);
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .requirements p:nth-child(4) {
@@ -291,7 +292,8 @@ div#zen-benefits p {
 .requirements p:nth-child(4):after {
     position: absolute;
     content: "";
-    top: -16%;
+    top: 50%;
+    transfrom: translateY(-50%);
     left: 5%;
     width: 289px;
     height: 287px;
@@ -307,7 +309,8 @@ div#zen-benefits p {
 .requirements p:nth-child(5):after {
 	position: absolute;
     content: "";
-    top: -20%;
+    top: 50%;
+	transfrom: translateY(-50%);
     right: 5%;
     width: 284px;
     height: 292px;
